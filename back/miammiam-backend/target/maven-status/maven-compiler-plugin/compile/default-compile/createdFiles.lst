@@ -1,0 +1,4 @@
+com\miammiam\backend\MiamMiamApplication.class
+com\miammiam\backend\repository\ProductRepository.class
+com\miammiam\backend\controller\ProductController.class
+com\miammiam\backend\model\Product.class
