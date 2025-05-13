@@ -1,13 +1,37 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Flagflies',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--orange1);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root{
+  --brown: #813531;
+  --orange1: #CC4E17;
+  --yellow1: #FF9000;
+  --yellowtitle: #FFB80E;
+}
+
+@font-face {
+  font-family: 'Flagfies';
+  src: url('./assets/fonts/Flagfies.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2 {
+  font-size: 8vw;
+  font-family: 'Flagfies', sans-serif;
+  color: var(--yellowtitle);
+  -webkit-text-stroke: 1px var(--brown); /* Contour (stroke) autour du texte) */
+  text-stroke: 1px var(--brown);     /* Pour les navigateurs non-WebKit (optionnel) */
+  text-shadow: 2px 2px 0 var(--brown);
 }
